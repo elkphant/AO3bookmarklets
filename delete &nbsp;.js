@@ -1,3 +1,6 @@
+/*delete blanks "&nbsp;" and replace <br/> with </p><p>
+刪除"&nbsp;"空白，以段落取代<br/>換行符號*/
+
 javascript:(function(){
   var e=document.getElementById('workskin');
   if(e){
